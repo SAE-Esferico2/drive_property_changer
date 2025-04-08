@@ -1,0 +1,13 @@
+{
+  "name": "drive_property_changer",
+  "version": "1.0.0",
+  "description": "Script para cambiar la pertenencia de carpetas y archivos de manera recursiva en Google Drive",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "keywords": ["google", "drive"],
+  "author": "Héctor Castro Gómez",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0"
+}
