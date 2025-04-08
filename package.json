@@ -4,10 +4,18 @@
   "description": "Script para cambiar la pertenencia de carpetas y archivos de manera recursiva en Google Drive",
   "main": "index.ts",
   "scripts": {
-    "start": "tsx index.ts"
+    "start": "tsx --env-file=.env index.ts"
   },
-  "keywords": ["google", "drive"],
+  "keywords": [
+    "google",
+    "drive"
+  ],
   "author": "Héctor Castro Gómez",
   "license": "ISC",
-  "packageManager": "pnpm@10.8.0"
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "@google-cloud/local-auth": "2.1.0",
+    "@types/node": "^22.14.0",
+    "googleapis": "105"
+  }
 }
